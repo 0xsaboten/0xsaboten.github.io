@@ -93,7 +93,7 @@ SELECT username,password FROM users WHERE id='5'
 
 ![Available functions](/assets/img/2026-posts/ai-ml-posts/power-supply/power-supply-flag.png)
 
-## Encoding Data (Optional)
+## Leaking All Passwords (Optional)
 
 On my first run through of this challenge I tried the query `SELECT username,password FROM users`, but the `AI Assistant` responded with:
 
