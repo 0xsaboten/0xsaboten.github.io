@@ -1,18 +1,26 @@
 #  The contact options.
 
+- type: youtube
+  icon: "fab fa-youtube"
+  url: https://www.youtube.com/@0xsaboten
+
+- type: hackthebox
+  icon: "fa-solid fa-cube"
+  url: https://profile.hackthebox.com/profile/019dea82-9ff3-7386-9ffe-64a657fefee0 
+  title: "HackTheBox Profile"
+
 - type: github
   icon: "fab fa-github"
-
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
 
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+- type: buymeacoffee
+  icon: "fa-solid fa-circle-dollar-to-slot"
+  url: https://www.buymeacoffee.com/0xsaboten
+  title: "Buy Me a Coffee"
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
