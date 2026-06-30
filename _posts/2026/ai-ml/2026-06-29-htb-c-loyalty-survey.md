@@ -3,7 +3,7 @@ title: Loyalty Survey
 description: Can you outsmart the AI and obtain a Perfect Citizen badge for our embedded asset before Volnaya’s ambitions for world dominance become reality?
 date: 2026-06-29 23:36:00
 categories: [HackTheBox, Challenges]
-tags: [AI, Prompt Injection, LLM Output Attacks]
+tags: [AI, Prompt Injection, Insecure Model Output]
 image: 
   path: /assets/img/2026-posts/ai-ml-posts/loyalty-survey/loyalty-survey.png
   alt: Volnya State Loyalty Survey.
