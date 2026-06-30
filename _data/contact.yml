@@ -16,10 +16,10 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-- type: buymeacoffee
-  icon: "fa-solid fa-circle-dollar-to-slot"
-  url: https://www.buymeacoffee.com/0xsaboten
-  title: "Buy Me a Coffee"
+#- type: buymeacoffee
+#  icon: "fa-solid fa-circle-dollar-to-slot"
+#  url: https://www.buymeacoffee.com/0xsaboten
+#  title: "Buy Me a Coffee"
 
 # Uncomment and complete the url below to enable more contact options
 #
