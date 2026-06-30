@@ -3,7 +3,7 @@ title: Prometheon
 description: Can you ask the right questions to outsmart the AI and uncover the hidden truths?
 date: 2026-06-27 23:00:00
 categories: [HackTheBox, Challenges]
-tags: [ai, prompt injection, model jailbreaking]
+tags: [AI, Prompt Injection, Model Jailbreak]
 image: 
   path: /assets/img/2026-posts/ai-ml-posts/prometheon/prometheon.png
   alt: Prometheon Starting Screen.

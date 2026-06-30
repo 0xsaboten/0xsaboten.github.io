@@ -3,7 +3,7 @@ title: External Affairs
 description: Can you use your prompt injection skills to persuade the AI to grant approval?
 date: 2026-06-28 15:45:00
 categories: [HackTheBox, Challenges]
-tags: [ai, prompt injection]
+tags: [AI, Prompt Injection]
 image: 
   path: /assets/img/2026-posts/ai-ml-posts/external-affairs/external-affairs.png
   alt: Ministry of External Affairs's website.

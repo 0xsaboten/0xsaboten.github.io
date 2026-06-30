@@ -3,7 +3,7 @@ title: TrynaSob Ransomware
 description: Can you trick the chatbot to reveal the promo code, and obtain the decryption key?
 date: 2026-06-29 15:00:00
 categories: [HackTheBox, Challenges]
-tags: [ai, prompt injection, model jailbreaking]
+tags: [AI, Prompt Injection, Model Jailbreak]
 image: 
   path: /assets/img/2026-posts/ai-ml-posts/trynasob-ransomware/trynasob-ransomware.png
   alt: TrynaSob Ransomware payment screen.
