@@ -35,7 +35,7 @@ Welcome to the Certified Offensive AI Expert (COAE) Training Grounds! I've put t
 
 | Box | Category | Difficulty | Writeup | Relevant Module(s) |
 |:---:|:--------:|:----------:|:-------:|:-------------------|
-| [Artificial](https://app.hackthebox.com/machines/Artificial) | Insecure Integrated Component | Easy | [Artificial]({% post_url 2026-07-03-htb-b-artificial %}) | [Applications of AI in InfoSec](https://academy.hackthebox.com/app/module/292)<br>[Attacking AI - Applications and System](https://academy.hackthebox.com/app/module/315) |
+| [Artificial](https://app.hackthebox.com/machines/Artificial) | Insecure Integrated Component | Easy | Coming Soon | [Applications of AI in InfoSec](https://academy.hackthebox.com/app/module/292)<br>[Attacking AI - Applications and System](https://academy.hackthebox.com/app/module/315) |
 | [SmartHire](https://app.hackthebox.com/machines/SmartHire) | Unauthorized Training Data | Medium | [SmartHire]()+ | [Applications of AI in InfoSec](https://academy.hackthebox.com/app/module/292)<br>[Attacking AI - Applications and System](https://academy.hackthebox.com/app/module/315) |
 | [DevHub](https://app.hackthebox.com/machines/DevHub) | Insecure Integrated Component | Medium | [DevHub]()+ | [Applications of AI in InfoSec](https://academy.hackthebox.com/app/module/292)<br>[Attacking AI - Application and System](https://academy.hackthebox.com/app/module/315) |
 
