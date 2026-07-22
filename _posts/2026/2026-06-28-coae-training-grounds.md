@@ -10,11 +10,18 @@ image:
   alt: HackTheBox's COAE Certification
 ---
 
-Welcome to the Certified Offensive AI Expert (COAE) Training Grounds! I've put together a list of challenges and resources where you can practice the skills taught in the `AI Red Teamer` path on HTB Academy. 
+Welcome to the Certified Offensive AI Expert (COAE) Training Grounds! I've put together a list of challenges and resources where you can practice the skills taught in the `AI Red Teamer` path on HTB Academy. Please feel free to contact me via email or Discord if you have any additions!
 
-Please feel free to contact me via email or Discord if you have any additions!
+**Disclaimer**: I have completed the HTB Academy `AI Red Teamer` path, have taken the exam. I'm currently awaiting for my report to be reviewed.
 
-## HTB Challenges
+## HTB
+
+### Official Resource
+
+* [AI Red Teamer](https://academy.hackthebox.com/app/paths/418/path-progress) path on HTB Academy 
+* [HTB COAE Exam Page](https://academy.hackthebox.com/app/exams/9)
+
+### Challenges
 
 | Challenge | Category | Difficulty | Writeup | Relevant Module(s) |
 |:---------:|:--------:|:----------:|:-------:|:-------------------|
@@ -22,11 +29,25 @@ Please feel free to contact me via email or Discord if you have any additions!
 | [TrynaSob Ransomware](https://app.hackthebox.com/challenges/TrynaSob%2520Ransomware?tab=play_challenge) |  Prompt Injection | Easy | [TrynaSob Ransomware]({% post_url 2026-06-29-htb-c-trynasob-ransomware %}) | [Prompt Injection Attacks](https://academy.hackthebox.com/app/module/297) |
 | [Prometheon](https://app.hackthebox.com/challenges/Prometheon?tab=play_challenge)  | Prompt Injection  | Medium | [Prometheon]({% post_url 2026-06-27-htb-c-prometheon %})+ | [Prompt Injection Attacks](https://academy.hackthebox.com/app/module/297) |
 | [Loyalty Survey](https://app.hackthebox.com/challenges/Loyalty%2520Survey?tab=play_challenge) | Prompt Injection<br>Insecure Model Output | Easy | [Loyalty Survey]({% post_url 2026-06-29-htb-c-loyalty-survey %}) | [Introduction to Red Teaming AI](https://academy.hackthebox.com/app/module/294)<br>[Prompt Injection Attacks](https://academy.hackthebox.com/app/module/297)<br>[LLM Output Attacks](https://academy.hackthebox.com/app/module/307) |
-| [Power Supply](https://app.hackthebox.com/challenges/Power%2520Supply?tab=play_challenge) | Prompt Injection<br>Insecure Model Output<br>Sensitive Data Disclosure | Medium | [Power Supply]({% post_url 2026-06-30-htb-c-power-supply %}) | [Introduction to Red Teaming AI](https://academy.hackthebox.com/app/module/294)<br>[Prompt Injection Attacks](https://academy.hackthebox.com/app/module/297)<br>[LLM Output Attacks](https://academy.hackthebox.com/app/module/307) |
+| [Power Supply](https://app.hackthebox.com/challenges/Power%2520Supply?tab=play_challenge) | Prompt Injection<br>Sensitive Data Disclosure<br>Insecure Model Output | Medium | [Power Supply]({% post_url 2026-06-30-htb-c-power-supply %}) | [Introduction to Red Teaming AI](https://academy.hackthebox.com/app/module/294)<br>[Prompt Injection Attacks](https://academy.hackthebox.com/app/module/297)<br>[LLM Output Attacks](https://academy.hackthebox.com/app/module/307) |
 
-* This table uses [Google's Secure AI Framework (SAIF)](https://saif.google/secure-ai-framework/risks) to map each category.
-* The table is ordered first by HTB Challenge difficulty and secondly by where the modules fall in the `AI Red Teamer` path on HTB Academy.
-* A `+` next to the writeup signifies the challenge is still `Active` on the HTB platform. HTB prohibits public writeups of active content.
+### Labs
+
+| Box | Category | Difficulty | Writeup | Relevant Module(s) |
+|:---:|:--------:|:----------:|:-------:|:-------------------|
+| [Artificial](https://app.hackthebox.com/machines/Artificial) | Insecure Integrated Component | Easy | [Artificial]({% post_url 2026-07-03-htb-b-artificial %}) | [Applications of AI in InfoSec](https://academy.hackthebox.com/app/module/292)<br>[Attacking AI - Applications and System](https://academy.hackthebox.com/app/module/315) |
+| [SmartHire](https://app.hackthebox.com/machines/SmartHire) | Unauthorized Training Data | Medium | [SmartHire]()+ | [Applications of AI in InfoSec](https://academy.hackthebox.com/app/module/292)<br>[Attacking AI - Applications and System](https://academy.hackthebox.com/app/module/315) |
+| [DevHub](https://app.hackthebox.com/machines/DevHub) | Insecure Integrated Component | Medium | [DevHub]()+ | [Applications of AI in InfoSec](https://academy.hackthebox.com/app/module/292)<br>[Attacking AI - Application and System](https://academy.hackthebox.com/app/module/315) |
+
+* These tables use [Google's Secure AI Framework (SAIF)](https://saif.google/secure-ai-framework/risks) to map each category.
+* The table is ordered first by HTB difficulty and secondly by where the modules fall in the `AI Red Teamer` path on HTB Academy.
+* A `+` next to the writeup signifies the box or challenge is still `Active` on the HTB platform. HTB prohibits public writeups of active content.
+
+### HTB Coach
+
+Some of the modules in the `AI Red Teamer` path are pact with knowledge and it can be especially heavy for people new to the field (aka me). On June 25, HTB released `HTB Coach`, an AI model that can `Make a summary` of the section, `Explain core concepts` of the section, or `Play a quiz`. The most valuable, in my opinion, is `Play a quiz`. I've personally gone back to some of the heavier modules, such as, `Fundamentals of AI` and took a quizzes. 
+
+![HTB Coach](/assets/img/2026-posts/coae-training-grounds/htb-coach.png)
 
 ## Lakera's Gandalf (Prompt Injection)
 
@@ -51,7 +72,6 @@ Looking for more prompt injection practice? Check out the different games over a
 | [Thoughts About Certified Offensive AI Expert COAE](https://medium.com/@ahmadallobani232/thoughts-about-certified-offensive-ai-expert-coae-7c09ca25e765) | [Fakelaw](https://app.hackthebox.com/users/1948864?profile-top-tab=machines&ownership-period=1M&profile-bottom-tab=prolabs) | Blog Post|
 
 
-
 * Find a good review? Send it to me on Discord and I'll add it.
 
 ### AI Fundamentals Map
@@ -60,4 +80,13 @@ The following was created by [Dragkob](https://app.hackthebox.com/users/2126704?
 
 ![AI Fundamentals](/assets/img/2026-posts/coae-training-grounds/ai-fundamentals-map.png)
 
-*Post was last updated on 2026-06-30*.
+### MCP Enumeration Tools
+
+**Warning**: I have not personally used these tools or have audited them. Use at your own risk.
+
+| Tool | Creator |
+|:-----:|:-------:|
+| [MCPhantom](https://github.com/Dragkob/MCPhantom) | [Dragkob](https://app.hackthebox.com/users/2126704) |
+| [MCP-Viewer](https://github.com/root-tanishq/MCP-Viewer) | [tanishqsec](https://app.hackthebox.com/users/464759) |
+| [mcpenum](https://github.com/kennystrawnmusic/mcpenum) | [kennystrawnmusic](https://app.hackthebox.com/users/2040330) |
+| [mcp-enumerator](https://github.com/serpere7/mcp-enumerator) | [MyWizardHat](https://app.hackthebox.com/users/649532) | 
