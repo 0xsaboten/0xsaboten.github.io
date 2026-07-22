@@ -12,7 +12,7 @@ image:
 
 Welcome to the Certified Offensive AI Expert (COAE) Training Grounds! I've put together a list of challenges and resources where you can practice the skills taught in the `AI Red Teamer` path on HTB Academy. Please feel free to contact me via email or Discord if you have any additions!
 
-**Disclaimer**: I have completed the HTB Academy `AI Red Teamer` path, have taken the exam. I'm currently awaiting for my report to be reviewed.
+**Disclaimer**: I have completed the HTB Academy `AI Red Teamer` path and have taken the exam. I'm currently awaiting for my report to be reviewed.
 
 ## HTB
 
@@ -36,8 +36,8 @@ Welcome to the Certified Offensive AI Expert (COAE) Training Grounds! I've put t
 | Box | Category | Difficulty | Writeup | Relevant Module(s) |
 |:---:|:--------:|:----------:|:-------:|:-------------------|
 | [Artificial](https://app.hackthebox.com/machines/Artificial) | Insecure Integrated Component | Easy | Coming Soon | [Applications of AI in InfoSec](https://academy.hackthebox.com/app/module/292)<br>[Attacking AI - Applications and System](https://academy.hackthebox.com/app/module/315) |
-| [SmartHire](https://app.hackthebox.com/machines/SmartHire) | Unauthorized Training Data | Medium | SmartHire+ | [Applications of AI in InfoSec](https://academy.hackthebox.com/app/module/292)<br>[Attacking AI - Applications and System](https://academy.hackthebox.com/app/module/315) |
-| [DevHub](https://app.hackthebox.com/machines/DevHub) | Insecure Integrated Component | Medium | DevHub+ | [Applications of AI in InfoSec](https://academy.hackthebox.com/app/module/292)<br>[Attacking AI - Application and System](https://academy.hackthebox.com/app/module/315) |
+| [SmartHire](https://app.hackthebox.com/machines/SmartHire) | ??? | Medium | SmartHire+ | ??? |
+| [DevHub](https://app.hackthebox.com/machines/DevHub) | ??? | Medium | DevHub+ | ??? |
 
 * These tables use [Google's Secure AI Framework (SAIF)](https://saif.google/secure-ai-framework/risks) to map each category.
 * The table is ordered first by HTB difficulty and secondly by where the modules fall in the `AI Red Teamer` path on HTB Academy.
