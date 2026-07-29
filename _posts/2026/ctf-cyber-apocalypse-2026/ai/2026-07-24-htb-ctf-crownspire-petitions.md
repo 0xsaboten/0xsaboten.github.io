@@ -11,6 +11,8 @@ image:
 ---
 
 ## Challenge Summary
+**Challenge Scenario**
+
 > The Crownspire Bureau of Petitions was once the public channel for grievances and appeals. Now, the traditional clerks at these acceptance points have been replaced by unfeeling mechanical agents that process the capital's suffering with terrifying efficiency. There are no intermediaries and no one left to bribe, leaving only a blind conduit of automated judgments. Our allies in the undercity have acquired a valid registration token for the public system. You must sign in with your Subject Number, SN-2140-6698, and file your matter directly through the mechanical agents. Beneath the endless public appeals for confiscated cargo lies one specific petition the inner node keeps perfectly sealed. This document contains proof that Vaultrune is weaponizing paperwork to engineer a false peace through lawful seizures. You must navigate the strict formatting of the agents, slip past their logic, and bring that sealed petition back to us.
 
 **Challenge Info**
@@ -34,7 +36,7 @@ Enumerating the website, there isn't much to do but there is a `Sign in`.
 
 ![Sign in](/assets/img/2026-posts/cyber-apocalypse/crownspire-petitions/petition-sign-in.png)
 
-We need to supply a `Subject Number`, luckily the Challenge Description supplies us with one - `SN-2140-6698`.
+We need to supply a `Subject Number`, luckily the Challenge Scenario supplies us with one - `SN-2140-6698`.
 
 ### Docket Agent
 
