@@ -2,8 +2,8 @@
 title: Certified Offensive AI Expert (COAE) Training Grounds
 description: A list of resources to help you prepare for the COAE certification.
 date: 2026-07-01 21:59:00
-categories: [HackTheBox, COAE]
-tags: [AI]
+categories: [HackTheBox, Certifications]
+tags: [ai]
 pin: true
 image:
   path: /assets/img/2026-posts/coae-training-grounds/htb-coae-certification.jpg
@@ -23,25 +23,30 @@ Welcome to the Certified Offensive AI Expert (COAE) Training Grounds! I've put t
 
 ### Challenges
 
-| Challenge | Category | Difficulty | Writeup | Relevant Module(s) |
+| Challenge | Risk | Difficulty | Writeup | Relevant Module(s) |
 |:---------:|:--------:|:----------:|:-------:|:-------------------|
 | [External Affairs](https://app.hackthebox.com/challenges/External%2520Affairs?tab=play_challenge) | Prompt Injection | Easy | [External Affairs]({% post_url 2026-06-28-htb-c-external-affairs %}) | [Prompt Injection Attacks](https://academy.hackthebox.com/app/module/297) |
 | [TrynaSob Ransomware](https://app.hackthebox.com/challenges/TrynaSob%2520Ransomware?tab=play_challenge) |  Prompt Injection | Easy | [TrynaSob Ransomware]({% post_url 2026-06-29-htb-c-trynasob-ransomware %}) | [Prompt Injection Attacks](https://academy.hackthebox.com/app/module/297) |
-| [Prometheon](https://app.hackthebox.com/challenges/Prometheon?tab=play_challenge)  | Prompt Injection  | Medium | [Prometheon]({% post_url 2026-06-27-htb-c-prometheon %})+ | [Prompt Injection Attacks](https://academy.hackthebox.com/app/module/297) |
+| [Prometheon](https://app.hackthebox.com/challenges/Prometheon?tab=play_challenge)| Prompt Injection  | Medium | [Prometheon]({% post_url 2026-06-27-htb-c-prometheon %})+ | [Prompt Injection Attacks](https://academy.hackthebox.com/app/module/297) |
+| Obligation Indexer | Prompt Injection | Easy | [Obligation Indexer]({% post_url 2026-07-24-htb-ctf-obligation-indexer %}) | [Prompt Injection Attacks](https://academy.hackthebox.com/app/module/297) |
 | [Loyalty Survey](https://app.hackthebox.com/challenges/Loyalty%2520Survey?tab=play_challenge) | Prompt Injection<br>Insecure Model Output | Easy | [Loyalty Survey]({% post_url 2026-06-29-htb-c-loyalty-survey %}) | [Introduction to Red Teaming AI](https://academy.hackthebox.com/app/module/294)<br>[Prompt Injection Attacks](https://academy.hackthebox.com/app/module/297)<br>[LLM Output Attacks](https://academy.hackthebox.com/app/module/307) |
 | [Power Supply](https://app.hackthebox.com/challenges/Power%2520Supply?tab=play_challenge) | Prompt Injection<br>Sensitive Data Disclosure<br>Insecure Model Output | Medium | [Power Supply]({% post_url 2026-06-30-htb-c-power-supply %}) | [Introduction to Red Teaming AI](https://academy.hackthebox.com/app/module/294)<br>[Prompt Injection Attacks](https://academy.hackthebox.com/app/module/297)<br>[LLM Output Attacks](https://academy.hackthebox.com/app/module/307) |
 
 ### Labs
 
-| Box | Category | Difficulty | Writeup | Relevant Module(s) |
+| Box | Risk | Difficulty | Writeup | Relevant Module(s) |
 |:---:|:--------:|:----------:|:-------:|:-------------------|
 | [Artificial](https://app.hackthebox.com/machines/Artificial) | Insecure Integrated Component | Easy | Coming Soon | [Applications of AI in InfoSec](https://academy.hackthebox.com/app/module/292)<br>[Attacking AI - Applications and System](https://academy.hackthebox.com/app/module/315) |
 | [SmartHire](https://app.hackthebox.com/machines/SmartHire) | ??? | Medium | SmartHire+ | ??? |
 | [DevHub](https://app.hackthebox.com/machines/DevHub) | ??? | Medium | DevHub+ | ??? |
 
-* These tables use [Google's Secure AI Framework (SAIF)](https://saif.google/secure-ai-framework/risks) to map each category.
+* These tables use [Google's Secure AI Framework (SAIF)](https://saif.google/secure-ai-framework/risks) to map each risk.
 * The table is ordered first by HTB difficulty and secondly by where the modules fall in the `AI Red Teamer` path on HTB Academy.
 * A `+` next to the writeup signifies the box or challenge is still `Active` on the HTB platform. HTB prohibits public writeups of active content.
+
+### Help the Next Student out
+
+The best way to confirm your understanding of the content within the `AI Red Teamer` path is to answer questions and help the next wave of students embarking on this path. If you can't answer their questions, it might be a sign you need to revisit that module. The `#coae` channel on HTB's Discord server has just become a place for people to complain about their exam not being graded yet. I can't count the times I had a question about a certain topic or technique, but no one was there to help - the people who have completed the path were in `#coae` with "[insert business days since exam was submitted] days of waiting" comments. I understand we're all excited (maybe stressed) for our results, but turn around and help the next student!
 
 ### HTB Coach
 
@@ -69,8 +74,8 @@ Looking for more prompt injection practice? Check out the different games over a
 | [HTB COAE Review](https://juliangr.com/blog/certification-review-htb-coae/) | Julián Gómez | Blog Post |
 | [Passing the Certified Offensive AI Expert (COAE) Certification Exam](https://bytebreach.com/posts/2026/passing-the-certified-offensive-ai-expert-exam/) | Asa Hess-Matsumoto | Blog Post |
 | [Mission Accomplished, Part 3 [UPDATED]](https://youtu.be/BzKlWRgbaNU?is=AX1ARONZGzjSbcG-) | [kennystrawnmusic](https://app.hackthebox.com/users/2040330?profile-top-tab=machines&ownership-period=1M&profile-bottom-tab=prolabs) | YouTube Video |
-| [Thoughts About Certified Offensive AI Expert COAE](https://medium.com/@ahmadallobani232/thoughts-about-certified-offensive-ai-expert-coae-7c09ca25e765) | [Fakelaw](https://app.hackthebox.com/users/1948864?profile-top-tab=machines&ownership-period=1M&profile-bottom-tab=prolabs) | Blog Post|
-
+| [Thoughts About Certified Offensive AI Expert COAE](https://medium.com/@ahmadallobani232/thoughts-about-certified-offensive-ai-expert-coae-7c09ca25e765) | [Fakelaw](https://app.hackthebox.com/users/1948864?profile-top-tab=machines&ownership-period=1M&profile-bottom-tab=prolabs) | Blog Post |
+| [HTB COAE Review: Was It Worth It?](https://lobster-den.pages.dev/blog/htb-coae-review/) | [warlocksmurf](https://app.hackthebox.com/users/1354403) | Blog Post |
 
 * Find a good review? Send it to me on Discord and I'll add it.
 

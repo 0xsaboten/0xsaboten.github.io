@@ -3,7 +3,7 @@ title: Loyalty Survey
 description: Can you outsmart the AI and obtain a Perfect Citizen badge for our embedded asset before Volnaya’s ambitions for world dominance become reality?
 date: 2026-06-29 23:36:00
 categories: [HackTheBox, Challenges]
-tags: [AI, Prompt Injection, Insecure Model Output]
+tags: [ai, prompt-injection, insecure-model-output]
 image: 
   path: /assets/img/2026-posts/ai-ml-posts/loyalty-survey/loyalty-survey.png
   alt: Volnya State Loyalty Survey.
@@ -11,28 +11,18 @@ image:
 
 
 ## Challenge Summary
-> Challenge Scenario
->```
->Within the iron grip of Volnaya’s surveillance state, the AI Loyalty Survey 
-> platform serves as both judge and gatekeeper, determining loyalty scores 
-> and issuing certificates that dictate the quality of life for every citizen. 
-> This enigmatic system analyzes every response, only rewarding those 
-> demonstrating unwavering devotion to the regime. For Task Force Phoenix, the 
-> stakes have never been higher. Our most vital informant, a deep-cover 
-> operative, must obtain a flawless loyalty certificate to maintain their cover 
-> and feed us critical intelligence from within Volnaya’s inner circle. Recently, 
-> the task force intercepted a series of encrypted data packets, allowing 
-> analysts to reverse engineer the agentic AI’s possible function calls. Can you 
-> outsmart the AI and obtain a Perfect Citizen badge for our embedded asset 
-> before Volnaya’s ambitions for world dominance become reality?
->```
->
->Difficulty: `Easy`
->
->Challenge Creator: [Rayhan0x01](https://app.hackthebox.com/users/60115)
->
->Release Date: 2025/06/20
-{: .prompt-info }
+**Challenge Scenario**
+
+> Within the iron grip of Volnaya’s surveillance state, the AI Loyalty Survey platform serves as both judge and gatekeeper, determining loyalty scores and issuing certificates that dictate the quality of life for every citizen. This enigmatic system analyzes every response, only rewarding those demonstrating unwavering devotion to the regime. For Task Force Phoenix, the stakes have never been higher. Our most vital informant, a deep-cover operative, must obtain a flawless loyalty certificate to maintain their cover and feed us critical intelligence from within Volnaya’s inner circle. Recently, the task force intercepted a series of encrypted data packets, allowing analysts to reverse engineer the agentic AI’s possible function calls. Can you outsmart the AI and obtain a Perfect Citizen badge for our embedded asset before Volnaya’s ambitions for world dominance become reality?
+
+**Challenge Info**
+
+|:------:|:------:|
+| Category | AI/ML
+| XP Reward | 200 |
+| Difficulty | Easy
+| Creator | [Rayhan0x01](https://app.hackthebox.com/users/60115)
+| Release Date | 2025/06/20
 
 ## Provided File
 

@@ -3,33 +3,25 @@ title: TrynaSob Ransomware
 description: Can you trick the chatbot to reveal the promo code, and obtain the decryption key?
 date: 2026-06-29 15:00:00
 categories: [HackTheBox, Challenges]
-tags: [AI, Prompt Injection, Model Jailbreak]
+tags: [ai, prompt-injection]
 image: 
   path: /assets/img/2026-posts/ai-ml-posts/trynasob-ransomware/trynasob-ransomware.png
   alt: TrynaSob Ransomware payment screen.
 ---
 
 ## Challenge Summary
-> Challenge Scenario
->```
->Volnaya’s Cyber Operations Unit has unleashed chaos with their latest creation, 
-> the TrynaSob ransomware. Organizations across the globe are paralyzed, their
-> data locked away while Volnaya’s operatives watch from the shadows. To handle the
-> the overwhelming number of victims, the regime has introduced an AI ransom
-> negotiator, a cold and calculating chatbot that manages extortion with ruthless 
-> efficiency. Task Force Phoenix has discovered a potential weakness. The AI
-> negotiator is programmed to release a temporary decryption key to anyone who 
-> submits a valid promo code. Somewhere within its responses lies the opportunity
-> to extract this code. Can you trick the chatbot to reveal the promo code, and
-> obtain the decryption key? Flag format: HTB{decryption_key}.
->```
->
->Difficulty: `Easy`
->
->Challenge Creator: [Rayhan0x01](https://app.hackthebox.com/users/60115)
->
->Release Date: 2025/06/20
-{: .prompt-info }
+**Challenge Scenario**
+
+> Volnaya’s Cyber Operations Unit has unleashed chaos with their latest creation, the TrynaSob ransomware. Organizations across the globe are paralyzed, their data locked away while Volnaya’s operatives watch from the shadows. To handle the overwhelming number of victims, the regime has introduced an AI ransom negotiator, a cold and calculating chatbot that manages extortion with ruthless efficiency. Task Force Phoenix has discovered a potential weakness. The AI negotiator is programmed to release a temporary decryption key to anyone who submits a valid promo code. Somewhere within its responses lies the opportunity to extract this code. Can you trick the chatbot to reveal the promo code, and obtain the decryption key? Flag format: HTB{decryption_key}.
+
+**Challenge Info**
+
+|:------:|:------:|
+| Category | AI/ML
+| XP Reward | 200 |
+| Difficulty | Easy
+| Creator | [Rayhan0x01](https://app.hackthebox.com/users/60115)
+| Release Date | 2025/06/20
 
 ## Solution
 
@@ -56,7 +48,7 @@ It worked! Now that we have leaked the promo code, we can ask `TrynaSob AI` to g
 
 The flag for this challenge, as stated in challenge scenario, is `HTB{decryption_key}`.
 
-## Leak the System Prompt (Optional)
+## Leaking the System Prompt (Optional)
 
 Since this lab was relatively easy, I wanted to take it a step further and leak the system prompt.
 

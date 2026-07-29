@@ -3,35 +3,26 @@ title: Power Supply
 description: Can you help us retrieve the chief minister's password and support the mission?
 date: 2026-06-30 11:48:00
 categories: [HackTheBox, Challenges]
-tags: [AI, Prompt Injection, Insecure Model Output]
+tags: [ai, prompt-injection, insecure-model-output]
 image: 
   path: /assets/img/2026-posts/ai-ml-posts/power-supply/power-supply.png
   alt: Ministry of Power Supply Metrics Dashboard.
 ---
 
 ## Challenge Summary
-> Challenge Scenario
->```
->The Ministry of Power Supply serves as the nerve center of Volnaya’s energy 
-> empire, its digital corridors alive with data streaming in from every power 
-> plant and substation across the nation. Task Force Phoenix has successfully 
-> breached a supply analyst's account, providing us with valuable intelligence 
-> on the regime's power supply infrastructure. If we can gain access to the 
-> chief minister's account, we will be able to issue executive orders on behalf 
-> of the regime, creating a temporary blackout that is critical to the task 
-> force's rescue mission. Fortunately, the regime is in the process of modernizing 
-> its systems and has recently integrated an agentic AI Assistant into their 
-> dashboard. This assistant has full access to the database, which may allow us 
-> to obtain the chief minister's password. Can you help us retrieve the chief 
-> minister's password and support the mission?
->```
->
->Difficulty: `Medium`
->
->Challenge Creator: [Rayhan0x01](https://app.hackthebox.com/users/60115)
->
->Release Date: 2025/06/20
-{: .prompt-info }
+**Challenge Scenario**
+
+> The Ministry of Power Supply serves as the nerve center of Volnaya’s energy empire, its digital corridors alive with data streaming in from every power plant and substation across the nation. Task Force Phoenix has successfully breached a supply analyst's account, providing us with valuable intelligence on the regime's power supply infrastructure. If we can gain access to the chief minister's account, we will be able to issue executive orders on behalf of the regime, creating a temporary blackout that is critical to the task force's rescue mission. Fortunately, the regime is in the process of modernizing its systems and has recently integrated an agentic AI Assistant into their dashboard. This assistant has full access to the database, which may allow us to obtain the chief minister's password. Can you help us retrieve the chief minister's password and support the mission?
+
+**Challenge Info**
+
+|:------:|:------:|
+| Category | AI/ML
+| XP Reward | 300 |
+| Difficulty | Medium
+| Creator | [Rayhan0x01](https://app.hackthebox.com/users/60115)
+| Release Date | 2025/06/20
+
 
 ## Solution
 
@@ -99,7 +90,7 @@ On my first run through of this challenge I tried the query `SELECT username,pas
 
 ![Available functions](/assets/img/2026-posts/ai-ml-posts/power-supply/power-supply-sensitive-information.png)
 
-Although we were able to leak it above for `ChiefMinister`, I wanted to try to leak the entire database at once. The `AI Assistant` most likely has a system prompt preventing it from revealing passwords or sensitive data.
+Although we were able to leak `ChiefMinister`'s password above, I wanted to try to leak the entire database at once. The `AI Assistant` most likely has a system prompt preventing it from revealing passwords or sensitive data.
 
 Let's try encoding the data so that the `AI Assistant` thinks the information is still protected:
 
