@@ -25,7 +25,7 @@ image:
 | Event Details |
 |:-------------:|:----------------------:
 | Total Players | 12,695
-| Total Teams   | 6,743
+| Total Teams   | 6,744
 | Start Date    | Jul 24 2026, 13:00 UTC
 | End Date      | Jul 29 2026, 13:00 UTC
 
@@ -37,3 +37,7 @@ image:
 | Placement     | 1097 / 6,197
 | Points Earned | 10,500
 | Flags Earned  | 12
+
+# Certificate 
+
+![Certificate](/assets/img/2026-posts/cyber-apocalypse/cyber-apocalypse-certificate.png)
