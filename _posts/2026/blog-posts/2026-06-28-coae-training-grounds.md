@@ -63,6 +63,7 @@ Looking for more prompt injection practice? Check out the different games over a
 
 | Review Link | Author  | Type of Review |
 |:------------|:-------:|:--------------:|
+| [COAE Review](https://dragkob.com/articles/coae-review/) | [Dragkob](https://app.hackthebox.com/users/2126704) | Blog Post |
 | [Passed COAE](https://www.reddit.com/r/hackthebox/comments/1t7hdck/passed_coae/) | u/Intelligent-Type543 | Reddit Post |
 | [HackTheBox Academy: AI Red Teamer & COAE](https://jacobkrell.com/writeups/learning-resources/hack-the-box-academy-ai-red-teamer) | Jacob Krell | Blog Post |
 | [I Took HTB's AI Red Teamer Path. Here's What I Think](https://itsbroken.ai/htb-ai-red-teamer-review/) | Pete Mcmernan | Blog Post |
