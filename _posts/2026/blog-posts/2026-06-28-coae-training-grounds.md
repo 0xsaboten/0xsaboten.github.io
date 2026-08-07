@@ -12,7 +12,14 @@ image:
 
 Welcome to the Certified Offensive AI Expert (COAE) Training Grounds! I've put together a list of challenges and resources where you can practice the skills taught in the `AI Red Teamer` path on HTB Academy. Please feel free to contact me via email or Discord if you have any additions!
 
-**Disclaimer**: I have completed the HTB Academy `AI Red Teamer` path and have taken the exam. I'm currently awaiting for my report to be reviewed.
+**Background**: I am officially HTB COAE certified as of August 6, 2026! I passed COAE on my first attempt. Additionally, I work a full-time job and did not take any time off for this exam - yes it is possible. This post contains a list of resources I believe will help you pass the COAE exam.
+
+My Timeline:
+1. Started path on May 11, 2026
+2. Finished path on July 16, 2026 
+3. Started exam on July 16, 2026
+4. Submitted report on July 21, 2026
+5. Received results on August 6, 2026 
 
 ## HTB Resources
 
