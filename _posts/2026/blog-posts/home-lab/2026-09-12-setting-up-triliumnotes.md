@@ -127,3 +127,33 @@ Five hours later me here! I've been monitoring the server's system usage and I d
 I decided to switch to `1 core` and `512 MB` for memory. I will update here if anything changes.
 
 ![Proxmox Trilium Resources](/assets/img/2026-posts/home-lab/proxmox-trilium-resources.png)
+
+## Configuration Changes - Update 2.0  
+
+I recently had to do a reboot for my Proxmox server and Trilium didn't spin up automatically. The first problem is that when Proxmox rebooted the container itself never started itself again. To fix this I clicked on my `102 (trilium)` container -> `Options` -> `Start at boot` -> `Edit`. Click the checkmark and the container will now always start.
+
+But that wasn't the only problem. When I logged into the Console and execute `systemctl status trilium` the service wasn't running. For me (and this was definitely my fault) when I copied the `trilium.service` file provided in the documentation, it commented out the following two lines:
+
+```
+#Restart=always
+#
+#[Install]
+#WantedBy=multi-user.target
+```
+
+Uncommenting these three lines and executed the following two commands to reload the service and enable it.
+
+```bash
+systemctl daemon-reload
+systemctl enable --now trilium
+Created symlink '/etc/systemd/system/multi-user.target.wants/trilium.service' -> '/etc/systemd/system/trilium.service'.
+```
+
+I also executed `systemctl status trilium` just to confirm it was running and enabled as expected.
+
+```bash
+systemctl status trilium
+* trilium.service - Trilium Daemon
+     Loaded: loaded (/etc/systemd/system/trilium.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2026-09-13 16:07:10 UTC; 41min ago
+```
