@@ -1,7 +1,7 @@
 ---
 title: Starting my Own Home Lab
 description: A series of blog posts documenting my journey of building and configuring my own home lab!
-date: 2026-09-03 00:00:00
+date: 2026-09-03 4:30:00
 categories: [Blog, Home Lab]
 tags: [home lab, proxmox]
 pin: false
@@ -45,7 +45,7 @@ All set for tomorrow!
 
 ## Goals
   - Planned
-    - [ ] Trilium Notes Sync Server
+    - [x] Trilium Notes Sync Server
     - [ ] AdGuard
 
  - Future 
@@ -53,6 +53,14 @@ All set for tomorrow!
     - [ ] Home Assistant - More control over my smart home.
     - [ ] Frigate - To host my own security camera feeds instead of sending that data to a cloud outside of my control.
     - [ ] JellyFin - To get rid of certain streaming services my family uses to watch one or two shows.
+
+If you're debating on what to do with your home lab, I would check out the following two sources for inspiration:
+1. [https://selfh.st/apps/](https://selfh.st/apps/)
+2. [https://community-scripts.org](https://community-scripts.org)
+
+`selfh.st` ..........
+
+`community-scripts` is a list of community-driven scripts for Proxmox. It doesn't show every app that you could install, but will give you one command to easily setup the container/VM and the service of your choosing. **Please verify the GitHub script you're running before executing!** I personally just used it as inspiration for what apps I could host and did everything else manually. 
  
 ## Links to all Blog Posts
 
@@ -63,5 +71,5 @@ I am going to skip the Proxmox setup as they are a ton of great resources out th
 
 | Blog Post                              | Link |
 |:--------------------------------------:|:-----|
-| Setting up Trilium Notes Sync Server   |
+| Setting up a Trilium Notes Sync Server | [Setting up a Trilium Notes Sync Server](/posts/setting-up-triliumnotes)
 | Removing Ads and Trackers with AdGuard |
