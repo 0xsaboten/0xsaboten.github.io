@@ -6,7 +6,7 @@ categories: [Blog, Home Lab]
 tags: [home lab, proxmox]
 pin: false
 image:
-  path: /assets/img/2026-posts/home-lab/proxmox.png
+  path: /assets/img/2026-posts/home-lab/proxmox/proxmox.png
   alt: Proxmox Virtual Environment
 ---
 
@@ -27,7 +27,7 @@ I started reaching out to friends I knew have built home labs in the past. For s
 | Memory | 16 GB
 | Storage | 500 GB
 
-![Mini PC](/assets/img/2026-posts/home-lab/minipc.png)
+![Mini PC](/assets/img/2026-posts/home-lab/proxmox/minipc.png)
 
 Total cost: $342
 
@@ -39,13 +39,15 @@ Unfortunately, my Mini PC was delayed and I will not be getting it until tomorro
 
 Although I don't have my Mini PC yet, I decided to get everything I could prepared on my side. I started with flashing a USB drive with Proxmox VE using [balenaEtcher](https://etcher.balena.io). Surprisingly, and I hate to admit this, I don't know where all my USB drives went.. After a short trip to a local computer store and $23 later I had one to load up Proxmox VE on.
 
-![Etcher](/assets/img/2026-posts/home-lab/etcher.png)
+![Etcher](/assets/img/2026-posts/home-lab/proxmox/etcher.png)
 
 All set for tomorrow!
 
 ## Goals
   - Planned
-    - [x] Trilium Notes Sync Server
+    - [x] Trilium Sync Server
+    - [x] Tailscale
+    - [x] Caddy
     - [ ] AdGuard
 
  - Future 
@@ -58,7 +60,7 @@ If you're debating on what to do with your home lab, I would check out the follo
 1. [https://selfh.st/apps/](https://selfh.st/apps/)
 2. [https://community-scripts.org](https://community-scripts.org)
 
-`selfh.st` ..........
+`selfh.st` is a collection of applications you can self host and contains a link to every applications website or GitHub page.
 
 `community-scripts` is a list of community-driven scripts for Proxmox. It doesn't show every app that you could install, but will give you one command to easily setup the container/VM and the service of your choosing. **Please verify the GitHub script you're running before executing!** I personally just used it as inspiration for what apps I could host and did everything else manually. 
  
@@ -71,5 +73,6 @@ I am going to skip the Proxmox setup as they are a ton of great resources out th
 
 | Blog Post                              | Link |
 |:--------------------------------------:|:-----|
-| Setting up a Trilium Notes Sync Server | [Setting up a Trilium Notes Sync Server](/posts/setting-up-triliumnotes)
-| Removing Ads and Trackers with AdGuard |
+| Deploying a Trilium Sync Server | [Deploying a Trilium Sync Server](/posts/deploying-a-trilium-sync-server/)
+| Remote Access with Tailscale & Caddy   | [Remote Access with Tailscale & Caddy](/posts/remote-access-with-tailscale-and-caddy/)
+| Removing Ads and Trackers with AdGuard | []()
