@@ -73,6 +73,6 @@ I am going to skip the Proxmox setup as they are a ton of great resources out th
 
 | Blog Post                              | Link |
 |:--------------------------------------:|:-----|
-| Deploying a Trilium Sync Server | [Deploying a Trilium Sync Server](/posts/deploying-a-trilium-sync-server/)
-| Remote Access with Tailscale & Caddy   | [Remote Access with Tailscale & Caddy](/posts/remote-access-with-tailscale-and-caddy/)
+| Deploying a Trilium Sync Server | [Deploying a Trilium Sync Server](/posts/deploying-a-trilium-sync-server)
+| Remote Access with Tailscale & Caddy   | [Remote Access with Tailscale & Caddy](/posts/remote-access-with-tailscale-and-caddy)
 | Removing Ads and Trackers with AdGuard | []()
