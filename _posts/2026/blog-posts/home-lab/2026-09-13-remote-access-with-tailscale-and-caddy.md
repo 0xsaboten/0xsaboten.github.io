@@ -14,7 +14,7 @@ image:
 
 Before I even start, shout out to the Tailscale Team. The more I dig into Tailscale and what it has to offer the more impressed I am and the fact that I can use most of these features for free is the cherry on top. Not to mention the docuemtanation is amazing and they have a [YouTube Channel](https://www.youtube.com/@Tailscale) that covers self-hosting and setting up Tailscale in numerous scenarios. If you're ever stuck I'd check out their documentation or the YouTube channel.
 
-If you're not following along, in my [last post](/posts/setting-up-a-trilium-sync-server/) I set up my Trilium Sync Server. Finally I can access my notes on all my devices and no matter what device I'm on, the changes are synced across them all. The only problem is this only works locally - that is what I'm going to be fixing today and we'll be using Tailscale and Caddy to assist!
+If you're not following along, in my [last post](/posts/deploying-a-trilium-sync-server/) I set up my Trilium Sync Server. Finally I can access my notes on all my devices and no matter what device I'm on, the changes are synced across them all. The only problem is this only works locally - that is what I'm going to be fixing today and we'll be using Tailscale and Caddy to assist!
 
 I would recommend checking out [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works), but briefly, it's using Wireguard to create a secure connection between devices on your `tailnet` over the internet. A `tailnet` is a network of all your devices with Tailscale and is inaccessible from the public internet. The only people with access to your `tailnet` are people you specifically invite in.
 
