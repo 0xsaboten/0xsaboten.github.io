@@ -48,6 +48,7 @@ All set for tomorrow!
     - [x] Trilium Sync Server
     - [x] Tailscale
     - [x] Caddy
+    - [x] n8n
     - [ ] AdGuard
 
  - Future 
@@ -75,4 +76,4 @@ I am going to skip the Proxmox setup as they are a ton of great resources out th
 |:--------------------------------------:|:-----|
 | Deploying a Trilium Sync Server | [Deploying a Trilium Sync Server](/posts/deploying-a-trilium-sync-server)
 | Remote Access with Tailscale & Caddy   | [Remote Access with Tailscale & Caddy](/posts/remote-access-with-tailscale-and-caddy)
-| Automating with n8n | 
+| Automating with n8n | [Automating with n8n](/posts/automating-with-n8n)
