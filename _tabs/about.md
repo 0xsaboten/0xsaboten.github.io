@@ -8,8 +8,13 @@ order: 4
 
 ## My Certifications
 
-<div style="display: grid !important; grid-template-columns: repeat(5, 1fr) !important; gap: 10px; align-items: center; justify-items: center; max-width: 100%;">
-  <img src="/assets/img/certifications/coae-badge.png" alt="HTB COAE Badge">
+<div style="display: grid !important; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)) !important; gap: 15px; align-items: start; justify-items: center; max-width: 25%;">
+  
+  <!-- HTB COAE Badge -->
+  <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <img src="/assets/img/certifications/coae-badge.png" alt="HTB COAE Badge">
+    <span style="font-size: 0.85rem; margin-top: 6px; color: var(--text-muted-color);">Earned Aug 6 2026</span>
+  </div>
 </div>
 
 ## Roadmap
